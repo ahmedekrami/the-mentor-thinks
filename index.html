@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>الموجه - Al-Muwajih Educational Platform</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Google Fonts - Supporting both Arabic and English -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Language Toggle Button -->
+    <button id="languageToggle" class="btn language-toggle">
+        <i class="bi bi-translate"></i>
+        <span class="lang-text" data-ar="English" data-en="العربية">English</span>
+    </button>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-lg-3 col-md-4 sidebar">
+                <div class="sidebar-header">
+                    <h2 class="platform-title" data-ar="الموجه" data-en="Al-Muwajih">الموجه</h2>
+                    <p class="platform-subtitle" data-ar="منصة تعليمية متطورة" data-en="Advanced Educational Platform">منصة تعليمية متطورة</p>
+                </div>
+                
+                <nav class="sidebar-nav">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#" data-section="bulletins">
+                                <i class="bi bi-newspaper"></i>
+                                <span data-ar="النشرات التربوية" data-en="Educational Bulletins">النشرات التربوية</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-section="workshops">
+                                <i class="bi bi-people"></i>
+                                <span data-ar="تدريبات وورش عمل" data-en="Workshops & Training">تدريبات وورش عمل</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-section="microteaching">
+                                <i class="bi bi-camera-video"></i>
+                                <span data-ar="تدريس مصغر" data-en="Microteaching">تدريس مصغر</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-section="feedback">
+                                <i class="bi bi-chat-dots"></i>
+                                <span data-ar="تغذية راجعة وجلسات انعكاسية" data-en="Feedback & Reflective Sessions">تغذية راجعة وجلسات انعكاسية</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-section="reading">
+                                <i class="bi bi-book"></i>
+                                <span data-ar="قرأت لك" data-en="I Read for You">قرأت لك</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-section="learning">
+                                <i class="bi bi-lightbulb"></i>
+                                <span data-ar="الموجه يتعلم" data-en="Al-Muwajih Learns">الموجه يتعلم</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Main Content -->
+            <div class="col-lg-9 col-md-8 main-content">
+                <!-- Educational Bulletins Section -->
+                <div id="bulletins" class="content-section active">
+                    <div class="section-header">
+                        <h2 class="section-title" data-ar="النشرات التربوية" data-en="Educational Bulletins">النشرات التربوية</h2>
+                        <p class="section-description" data-ar="مجموعة من النشرات والمشاريع التعليمية المتنوعة" data-en="A collection of diverse educational bulletins and projects">مجموعة من النشرات والمشاريع التعليمية المتنوعة</p>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card project-card">
+                                <div class="card-body">
+                                    <h5 class="card-title" data-ar="فوائد القراءة" data-en="Benefits of reading">استراتيجيات التعلم النشط</h5>
+                                    <img src="https://github.com/ahmedekrami/the-mentor-thinks/blob/main/images1/WhatsApp%20Image%202025-06-07%20at%2015.56.24_37359c43.jpg?raw=true" class="card-img" alt="Active Learning">
+                                    <p class="card-text" data-ar="فوائد القراءة للمعلمة لتحفيزها على تفعيل مبادرة قرأت لك" data-en="Benefits of reading for the teacher to motivate her to activate the “I Read to You” initiative">فوائد القراءة</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card project-card">
+                                <div class="card-body">
+                                    <h5 class="card-title" data-ar="التعلم بالإكتشاف" data-en="Discovery learning">تقنيات التقييم الحديثة</h5>
+                                    <img src="https://github.com/ahmedekrami/the-mentor-thinks/blob/main/images1/WhatsApp%20Image%202025-06-07%20at%2015.56.24_50402d6b.jpg?raw=true" class="card-img" alt="Assessment Techniques">
+                                    <p class="card-text" data-ar="أهمية التنوع فى استخدام الاستراتيجيات ومثال عليها التعلم بالاكتشاف" data-en="The importance of diversity in the use of strategies, an example of which is discovery learning.">أساليب متطورة لتقييم الطلاب وقياس مخرجات التعلم</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card project-card">
+                                <div class="card-body">
+                                    <h5 class="card-title" data-ar="العمل بنظام تحسين الجودة" data-en="Working with a quality improvement system">إدارة الصف الفعالة</h5>
+                                    <img src="https://github.com/ahmedekrami/the-mentor-thinks/blob/main/images1/WhatsApp%20Image%202025-06-07%20at%2015.56.25_2527cefb.jpg?raw=true" class="card-img" alt="Classroom Management">
+                                    <p class="card-text" data-ar="تسعى الوزارة للعمل بتحسين نظام الجودة فى رياض الأطفال وتم عمل سلسلة فيديوهات بعنوان خد فكرة ل بكرة" data-en="The Ministry seeks to work on improving the quality system in kindergartens, and a series of videos was created entitled “Take an Idea for Tomorrow.”">تقنيات وأساليب إدارة الصف لبيئة تعليمية محفزة</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card project-card">
+                                <div class="card-body">
+                                    <h5 class="card-title" data-ar="معادلة الأداء الجيد" data-en="The equation for good performance">استراتيجيات التعلم النشط</h5>
+                                    <img src="https://github.com/ahmedekrami/the-mentor-thinks/blob/main/images1/WhatsApp%20Image%202025-06-07%20at%2016.01.00_2355501d.jpg?raw=true" class="card-img" alt="Active Learning">
+                                    <p class="card-text" data-ar="كيف يمكن للمعلمة الوصول لأداء جيد من خلال توفير بيئة عمل جيدة" data-en="How can a teacher achieve good performance by providing a good work environment?">دليل شامل لتطبيق استراتيجيات التعلم النشط في الفصول الدراسية</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card project-card">
+                                <div class="card-body">
+                                    <h5 class="card-title" data-ar="معدلات بقاء أثر التعلم" data-en="Learning effect retention rates">تقنيات التقييم الحديثة</h5>
+                                    <img src="https://github.com/ahmedekrami/the-mentor-thinks/blob/main/images1/WhatsApp%20Image%202025-06-07%20at%2016.01.56_85e354d6.jpg?raw=true" class="card-img" alt="Assessment Techniques">
+                                    <p class="card-text" data-ar="كيف يمكننا بقاء أثر التعلم لأطول وقت ممكن " data-en="How can we make the learning impact last as long as possible?">أساليب متطورة لتقييم الطلاب وقياس مخرجات التعلم</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card project-card">
+                                <div class="card-body">
+                                    <h5 class="card-title" data-ar="استمارة التقييم اليومى" data-en="Daily Evaluation Form">إدارة الصف الفعالة</h5>
+                                    <img src="https://github.com/ahmedekrami/the-mentor-thinks/blob/main/images1/WhatsApp%20Image%202025-06-07%20at%2016.03.55_b67292bf.jpg?raw=true" class="card-img" alt="Classroom Management">
+                                    <p class="card-text" data-ar="استمارة التقييم اليومى هى من مهام قائدى اليوم بدعم من المعلمة" data-en="The daily evaluation form is the task of the day leaders with the support of the teacher.">تقنيات وأساليب إدارة الصف لبيئة تعليمية محفزة</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center">
+                        <h2 class="section-title text-center" data-ar="للإطلاع على المزيد" data-en="To learn more">النشرات التربوية</h2>
+                        <button class="btn btn-primary mt-2" onclick="window.location.href='https://drive.google.com/drive/folders/1ihfu_OyJ46Ly3BOJjn_6BA0agXQpXr5f';" data-ar="اضغط هنا" data-en="Click here">اضغط هنا</button>
+                    </div>
+                </div>
+
+                <!-- Workshops Section -->
+                <div id="workshops" class="content-section">
+                    <div class="section-header">
+                        <h2 class="section-title" data-ar="تدريبات وورش عمل" data-en="Workshops & Training">تدريبات وورش عمل</h2>
+                        <p class="section-description" data-ar="ورش عمل تفاعلية لتطوير مهارات التعليم والتدريب" data-en="Interactive workshops for developing teaching and training skills">ورش عمل تفاعلية لتطوير مهارات التعليم والتدريب</p>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="workshop-card">
+                                <img src="https://github.com/ahmedekrami/the-mentor-thinks/blob/main/images2/%20w1%20(1).jpg?raw=true" class="workshop-image" alt="Workshop">
+                                <div class="workshop-content">
+                                    <h5 data-ar="تدريب على بعض المواقع الإلكترونية عبر برنامج ميكؤوسوفت تيمز" data-en="Training on some websites via Microsoft Teams">ورشة التعلم التفاعلي</h5>
+                                    <button class="btn btn-primary mt-2" onclick="window.location.href='https://youtu.be/ez0wCe1j37I?si=j7ngt_K8l_nE3YjC';" data-ar="اضغط هنا" data-en="Click here">اضغط هنا</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="workshop-card">
+                                <img src="https://github.com/ahmedekrami/the-mentor-thinks/blob/main/images2/%20w1%20(2).jpg?raw=true" class="workshop-image" alt="Workshop">
+                                <div class="workshop-content">
+                                    <h5 data-ar="تنفيذ المعلمات لورشة عمل بعنوان دمج التكنولوجيا فى التعليم" data-en="Teachers implement a workshop entitled Integrating Technology into Education">ورشة استخدام التكنولوجيا</h5>
+                                    <button class="btn btn-primary mt-2" onclick="window.location.href='https://youtu.be/dv80TamjYGY?si=Ji484WLnLgOaAPD9';" data-ar="اضغط هنا" data-en="Click here">اضغط هنا</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="workshop-card">
+                                <img src="https://github.com/ahmedekrami/the-mentor-thinks/blob/main/images2/%20w1%20(4).jpg?raw=true" class="workshop-image" alt="Workshop">
+                                <div class="workshop-content">
+                                    <h5 data-ar="حصول بعض المعلمات على لقب معلم خبير من ميكروسوفت" data-en="Some teachers have been awarded the title of Microsoft Expert Teacher">ورشة التقييم الشامل</h5>
+                                    <button class="btn btn-primary mt-2" onclick="window.location.href='https://learn.microsoft.com/ar-sa/training/educator-center/programs/microsoft-educator/';" data-ar="اضغط هنا" data-en="Click here">اضغط هنا</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="workshop-card">
+                                <img src="https://github.com/ahmedekrami/the-mentor-thinks/blob/main/images2/%20w1%20(6).jpg?raw=true" class="workshop-image" alt="Workshop">
+                                <div class="workshop-content">
+                                    <h5 data-ar="تدريب المعلمات على تفعيل ايميل الأوفيس 365" data-en="Training teachers to activate Office 365 email">ورشة التعلم التفاعلي</h5>
+                                    <button class="btn btn-primary mt-2" onclick="window.location.href='https://www.office.com/?ref=logout';" data-ar="اضغط هنا" data-en="Click here">اضغط هنا</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="workshop-card">
+                                <img src="https://github.com/ahmedekrami/the-mentor-thinks/blob/main/images2/%20w1%20(3).jpg?raw=true" class="workshop-image" alt="Workshop">
+                                <div class="workshop-content">
+                                    <h5 data-ar="ورشة عمل عن التنوع فى استخدام الإستراتيجيات" data-en="Workshop on Diversity in the Use of Strategies">ورشة استخدام التكنولوجيا</h5>
+                                    <button class="btn btn-primary mt-2" onclick="window.location.href='https://youtu.be/C7BJXQK9wJg?si=Y-ugtEjTBkEfAzMG';" data-ar="اضغط هنا" data-en="Click here">اضغط هنا</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="workshop-card">
+                                <img src="https://github.com/ahmedekrami/the-mentor-thinks/blob/main/images2/WhatsApp%20Image%202025-06-07%20at%2019.13.36_f7152d17.jpg?raw=true" class="workshop-image" alt="Workshop">
+                                <div class="workshop-content">
+                                    <h5 data-ar="تدريب المعلمات على عمل العاب الكترونية تفاعلية باستخدام موقع wordwall" data-en="Training teachers to create interactive electronic games using Wordwall">ورشة التقييم الشامل</h5>
+                                    <button class="btn btn-primary mt-2" onclick="window.location.href='https://wordwall.net/play/91022/143/288';" data-ar="اضغط هنا" data-en="Click here">اضغط هنا</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Microteaching Section -->
+                <div id="microteaching" class="content-section">
+                    <div class="section-header">
+                        <h2 class="section-title" data-ar="تدريس مصغر" data-en="Microteaching">تدريس مصغر</h2>
+                        <p class="section-description" data-ar="مشاريع تعليمية مصغرة لتطوير مهارات التدريس" data-en="Micro-educational projects for developing teaching skills">مشاريع تعليمية مصغرة لتطوير مهارات التدريس</p>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-lg-6 mb-4">
+                            <div class="card microteaching-card">
+                                <div class="card-body">
+                                    <div class="microteaching-icon">
+                                        <i class="bi bi-play-circle"></i>
+                                    </div>
+                                    <h5 class="card-title" data-ar="قناة اليوتيوب الخاصة بالموجهة" data-en="The guide's YouTube channel">مشروع التدريس التفاعلي</h5>
+                                    <p class="card-text" data-ar="قناة تعليمية ترفيهية تربوية" data-en="Educational, entertaining and educational channel">تطبيق عملي لتقنيات التدريس التفاعلي في بيئة محاكاة</p>
+                                        <button class="btn btn-primary" onclick="window.location.href='https://youtube.com/@wlaaaboragab951?si=jefNkPlLmJBLlE0T';" data-ar="قناة اليوتيوب" data-en="Youtube Channel">مستوى متوسط</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6 mb-4">
+                            <div class="card microteaching-card">
+                                <div class="card-body">
+                                    <div class="microteaching-icon">
+                                        <i class="bi bi-camera-video"></i>
+                                    </div>
+                                    <h5 class="card-title" data-ar="توجيه رياض الأطفال" data-en="Kindergarten guidance">مشروع استخدام الوسائل البصرية</h5>
+                                    <p class="card-text" data-ar="صفحة خاصة بكل ما يهم مرحلة رياض الأطفال بمحافظة دمياط" data-en="A special page for everything related to kindergarten in Damietta Governorate">دمج الوسائل البصرية والتقنية في العملية التعليمية</p>
+                                    <button class="btn btn-primary" onclick="window.location.href='https://www.facebook.com/share/15bHawow6H/';" data-ar="لينك صفحة توجيه عام رياض الأطفال" data-en="Kindergarten General Guidance Page Link">مستوى متوسط</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feedback Section -->
+                <div id="feedback" class="content-section">
+                    <div class="section-header">
+                        <h2 class="section-title" data-ar="تغذية راجعة وجلسات انعكاسية" data-en="Feedback & Reflective Sessions">تغذية راجعة وجلسات انعكاسية</h2>
+                        <p class="section-description" data-ar="ممارسات انعكاسية لتحسين الأداء التعليمي" data-en="Reflective practices to improve educational performance">ممارسات انعكاسية لتحسين الأداء التعليمي</p>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                            <div class="feedback-item">
+                                <img src="https://github.com/ahmedekrami/the-mentor-thinks/blob/main/images4/b%20(1).jpg?raw=true" alt="Feedback Session">
+                                <div class="feedback-overlay">
+                                    <i class="bi bi-chat-text"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                            <div class="feedback-item">
+                                <img src="https://github.com/ahmedekrami/the-mentor-thinks/blob/main/images4/b%20(2).jpg?raw=true" alt="Reflective Session">
+                                <div class="feedback-overlay">
+                                    <i class="bi bi-journal-text"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                            <div class="feedback-item">
+                                <img src="https://github.com/ahmedekrami/the-mentor-thinks/blob/main/images4/b%20(3).jpg?raw=true" alt="Group Discussion">
+                                <div class="feedback-overlay">
+                                    <i class="bi bi-people"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                            <div class="feedback-item">
+                                <img src="https://github.com/ahmedekrami/the-mentor-thinks/blob/main/images4/b%20(4).jpg?raw=true" alt="Analysis Session">
+                                <div class="feedback-overlay">
+                                    <i class="bi bi-graph-up"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                            <div class="feedback-item">
+                                <img src="https://github.com/ahmedekrami/the-mentor-thinks/blob/main/images4/b%20(5).jpg?raw=true" alt="Feedback Session">
+                                <div class="feedback-overlay">
+                                    <i class="bi bi-chat-text"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                            <div class="feedback-item">
+                                <img src="https://github.com/ahmedekrami/the-mentor-thinks/blob/main/images4/b%20(6).jpg?raw=true" alt="Reflective Session">
+                                <div class="feedback-overlay">
+                                    <i class="bi bi-journal-text"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                            <div class="feedback-item">
+                                <img src="https://github.com/ahmedekrami/the-mentor-thinks/blob/main/images4/b%20(7).jpg?raw=true" alt="Group Discussion">
+                                <div class="feedback-overlay">
+                                    <i class="bi bi-people"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                            <div class="feedback-item">
+                                <img src="https://github.com/ahmedekrami/the-mentor-thinks/blob/main/images4/b%20(8).jpg?raw=true" alt="Analysis Session">
+                                <div class="feedback-overlay">
+                                    <i class="bi bi-graph-up"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                            <div class="feedback-item">
+                                <img src="https://github.com/ahmedekrami/the-mentor-thinks/blob/main/images4/b%20(9).jpg?raw=true" alt="Feedback Session">
+                                <div class="feedback-overlay">
+                                    <i class="bi bi-chat-text"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                            <div class="feedback-item">
+                                <img src="https://github.com/ahmedekrami/the-mentor-thinks/blob/main/images4/b%20(10).jpg?raw=true" alt="Reflective Session">
+                                <div class="feedback-overlay">
+                                    <i class="bi bi-journal-text"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                            <div class="feedback-item">
+                                <img src="https://github.com/ahmedekrami/the-mentor-thinks/blob/main/images4/b%20(11).jpg?raw=true" alt="Group Discussion">
+                                <div class="feedback-overlay">
+                                    <i class="bi bi-people"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                            <div class="feedback-item">
+                                <img src="https://github.com/ahmedekrami/the-mentor-thinks/blob/main/images4/WhatsApp%20Image%202025-06-07%20at%2017.23.44_9b14af3d.jpg?raw=true" alt="Analysis Session">
+                                <div class="feedback-overlay">
+                                    <i class="bi bi-graph-up"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- Reading Section -->
+                <div id="reading" class="content-section">
+                    <div class="section-header">
+                        <h2 class="section-title" data-ar="قرأت لك" data-en="I Read for You">قرأت لك</h2>
+                        <p class="section-description" data-ar="ملخصات وقراءات تعليمية منتقاة" data-en="Selected educational summaries and readings">ملخصات وقراءات تعليمية منتقاة</p>
+                    </div>
+                    
+                    <div class="row d-flex flex-column justify-content-center">
+                        <div class="d-flex justify-content-center">
+                            <img class="w-50" src="https://github.com/ahmedekrami/the-mentor-thinks/blob/main/WhatsApp%20Image%202025-06-07%20at%2020.23.56_ab4a5103.jpg?raw=true" alt="Educational Reading">
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <div class="col-lg-6 col-md-6 mb-4">
+                            <div class="reading-card">
+                                
+                                <div class="reading-content">
+                                    <h6 data-ar="مبادرة قرأت لك" data-en="I read to you initiative">نظريات التعلم الحديثة</h6>
+                                    <button class="btn btn-primary mt-3" onclick="window.location.href='https://drive.google.com/drive/folders/1iMr9_vUB7fU0VQUdGs-uRYL9qYKBFLi1';" data-ar="اضغط هنا" data-en="Click here">قرأت لك</button>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Learning Section -->
+                <div id="learning" class="content-section">
+                    <div class="section-header">
+                        <h2 class="section-title" data-ar="الموجه يتعلم" data-en="Al-Muwajih Learns">الموجه يتعلم</h2>
+                        <p class="section-description" data-ar="موارد تعليمية وأفكار تطويرية للموجهين" data-en="Educational resources and developmental ideas for supervisors">موارد تعليمية وأفكار تطويرية للموجهين</p>
+                    </div>
+                    
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                            <div class="learning-item">
+                                <img src="https://github.com/ahmedekrami/the-mentor-thinks/blob/main/WhatsApp%20Image%202025-06-07%20at%2019.13.23_5bd36bc7.jpg?raw=true" alt="Learning Resource">
+                                <div class="learning-overlay">
+                                    <h6 data-ar="الألعاب الإلكترونية word wall" data-en="Electronic games word wall">مهارات القيادة التربوية</h6>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary mt-2" onclick="window.location.href='https://youtu.be/Qa97B3VH9pk?si=Oc0YFsoV010Swnbw';" data-ar="اضغط هنا" data-en="Click here">اضغط هنا</button>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                            <div class="learning-item">
+                                <img src="https://github.com/ahmedekrami/the-mentor-thinks/blob/main/WhatsApp%20Image%202025-06-07%20at%2019.13.36_3ac5660d.jpg?raw=true" alt="Learning Resource">
+                                <div class="learning-overlay">
+                                    <h6 data-ar="الألعاب الإلكترونية Quiziz" data-en="Electronic games Quiziz">تقنيات الإشراف الحديثة</h6>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary mt-2" onclick="window.location.href='https://youtu.be/ez0wCe1j37I?si=bzDZTsrh0OmUftFv';" data-ar="اضغط هنا" data-en="Click here">اضغط هنا</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
